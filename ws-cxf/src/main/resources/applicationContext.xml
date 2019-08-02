@@ -8,7 +8,7 @@
 	  http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 
 
-    <bean id="employeeManagerImpl" class="com.zero.mao.service.impl.EmployeeManagerImpl"></bean>
+    <bean id="employeeManagerImpl" class="zero.mao.service.impl.EmployeeManagerImpl"></bean>
     <!-- 配置cxf
        地址：      http://192.168.114.10:8080/CXF_Server/ws/employeeManager
        组成 ：  http://192.168.114.10:8080 +CXF_Server（ 项目名）+ws（过滤的路径）+/employeeManager(自定义部分)
@@ -16,7 +16,7 @@
        服务的实现类：
        拦截器
         -->
-    <jaxws:server address="/employeeManager" serviceClass="com.zero.mao.service.EmployeeManager">
+    <jaxws:server address="/employeeManager" serviceClass="zero.mao.service.EmployeeManager">
         <jaxws:serviceBean>
             <ref bean="employeeManagerImpl"/>
         </jaxws:serviceBean>

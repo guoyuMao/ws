@@ -1,7 +1,7 @@
-package com.zero.mao.service.impl;
+package zero.mao.service.impl;
 
-import com.zero.mao.Employee;
-import com.zero.mao.service.EmployeeManager;
+import zero.mao.domain.Employee;
+import zero.mao.service.EmployeeManager;
 
 import java.util.ArrayList;
 import java.util.List;

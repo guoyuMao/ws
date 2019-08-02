@@ -1,5 +1,5 @@
-package com.zero.mao.service;
-import com.zero.mao.Employee;
+package zero.mao.service;
+import zero.mao.domain.Employee;
 
 import java.util.List;
 
